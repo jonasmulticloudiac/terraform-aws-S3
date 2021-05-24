@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "mys3prod" {
+resource "aws_s3_bucket" "s3prod" {
   bucket = var.name
   acl    = var.acl
 
